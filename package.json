@@ -1,0 +1,12 @@
+{
+  "name": "project-with-gulp",
+  "version": "1.0.0",
+  "description": "start gulp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vera Deeva",
+  "license": "ISC"
+}
