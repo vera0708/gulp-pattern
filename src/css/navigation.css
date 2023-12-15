@@ -6,6 +6,7 @@
 .navigation__list {
     display: flex;
     align-items: center;
+    margin-right: 59px;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px;
@@ -28,6 +29,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
+    margin-right: 94px;
     background-color: transparent;
     border: none;
     
@@ -39,7 +41,7 @@
     line-height: 29px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1366px) {
 
     .navigation {
         width: 100%;
@@ -60,7 +62,9 @@
     .navigation__city {
         margin-right: 30px;
     }
+}
 
+@media (max-width: 768px) {
     .navigation {
         background-color: #fff;
         max-width: 400px;
@@ -70,12 +74,11 @@
         gap: 20px;
         left: -400px;
         top: 0;
-        visibility: hidden
     }
 
-    .navigation_open {
+    .navigation__open {
         display: flex;
-        visibility: visible;
+
     }
 
     .navigation__close {

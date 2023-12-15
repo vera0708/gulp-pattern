@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: local('SF Pro Display Medium'), local('SFProDisplay-Medium'),
-        url('SFProDisplay-Medium.woff2') format('woff2'),
-        url('SFProDisplay-Medium.woff') format('woff');
+        url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -12,8 +12,8 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: local('SF Pro Display Semibold'), local('SFProDisplay-Semibold'),
-        url('SFProDisplay-Semibold.woff2') format('woff2'),
-        url('SFProDisplay-Semibold.woff') format('woff');
+        url('../fonts/SFProDisplay-Semibold.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -22,8 +22,8 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: local('SF Pro Display Regular'), local('SFProDisplay-Regular'),
-        url('SFProDisplay-Regular.woff2') format('woff2'),
-        url('SFProDisplay-Regular.woff') format('woff');
+        url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -33,8 +33,8 @@
 @font-face {
     font-family: 'SF Pro Display';
     src: local('SF Pro Display Light'), local('SFProDisplay-Light'),
-        url('SFProDisplay-Light.woff2') format('woff2'),
-        url('SFProDisplay-Light.woff') format('woff');
+        url('../fonts/SFProDisplay-Light.woff2') format('woff2'),
+        url('../fonts/SFProDisplay-Light.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;

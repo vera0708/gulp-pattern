@@ -62,12 +62,12 @@
     height: 40px;
     width: 300px;
     max-width: 100%;
-    margin-bottom: 30px;
 }
 
 .modal-order__label {
     display: block;
-    margin-bottom: 20px;
+    min-height: 60px;
+    margin-bottom: 10px;
 }
 
 .modal-order__submit {

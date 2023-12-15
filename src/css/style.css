@@ -1,15 +1,18 @@
+
 @import "var.css";
 @import "fonts.css";
 @import "normalize.css";
 @import "global.css";
 @import "header.css";
 @import "navigation.css";
-
+@import "acc.css";
 @import "city.css";
 @import "present.css";
 @import 'modal-order.css';
 @import "what-building.css";
 @import "characteristics.css";
+@import "alert-cookie.css";
+@import "slider.css";
 
 a {
     transition: color .2s, outline-color 0.3s;
@@ -23,8 +26,7 @@ a:hover {
     color: #C2B59B;
 }
 
-a:focus,
-a:active {
+a:focus, a:active {
     color: #5E4C26;
     outline-color: #5E4C26;
 }
@@ -33,8 +35,7 @@ button:hover {
     color: #C2B59B;
 }
 
-button:focus,
-button:active {
+button:focus, button:active {
     color: #5E4C26;
     outline: none;
     border-radius: 6px;
@@ -56,3 +57,4 @@ button:active {
 .visible {
     display: block;
 }
+
