@@ -10,6 +10,7 @@ import concat from 'gulp-concat';
 import sourcemaps from 'gulp-sourcemaps';
 import gulpImg from 'gulp-image';
 import { stream as critical } from 'critical';
+import autoPrefixer from 'gulp-autoprefixer';
 
 const allJS = [
     "src/libs/jquery-3.6.0.min.js",
@@ -38,6 +39,7 @@ export const css = () => gulp
     .pipe(gulpCssimport({
         extensions: ['css'],
     }))
+    .pipe(autoPrefixer())
     .pipe(cleanCss({
         2: {
             specialComments: 0,

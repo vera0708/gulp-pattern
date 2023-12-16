@@ -7,13 +7,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "browserslist": [
+    "last 2 version",
+    "not dead",
+    ">5%"
+  ],
   "author": "Vera Deeva",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "browser-sync": "^2.29.3",
     "critical": "^6.0.4",
     "del": "^7.1.0",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-cssimport": "^7.0.0",
